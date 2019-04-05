@@ -1,0 +1,25 @@
+extra:
+  search:
+    language: 'en, pt'
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - pymdownx.superfences
+
+nav:
+- Introdução: index.md
+- Aula 1 (2019-04-08): aula1.md
+- Aula 2 (2019-04-11): aula2.md
+
+plugins:
+  - search
+
+site_name: Sistemas Hipermídia e Multimídia
+site_description: Disciplina de Sistemas Hipermídia e Multimídia
+site_author: Allainclair Flausino dos Santos
+site_url: https://allainclair.github.io/disc-shm
+
+theme:
+  language: pt
+  name: material
