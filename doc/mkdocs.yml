@@ -11,6 +11,7 @@ nav:
 - Introdução: index.md
 - Aula 1 (2019-04-08): aula1.md
 - Aula 2 (2019-04-11): aula2.md
+- Aula 3 (2019-04-11): aula3.md
 
 plugins:
   - search
