@@ -69,6 +69,7 @@ Construção de aplicações hipermídia na Web. Estudo de caso.
 4. O Hipertexto, características e propriedades;
 
 5. Imagens Digitais, características e propriedades;
+
 6. O áudio
 
     6.1 Propriedades físicas do som;
@@ -97,6 +98,31 @@ Construção de aplicações hipermídia na Web. Estudo de caso.
 
     9.2 Autoria de Títulos, Aplicativos e WebSites.
 
+
+### Referências
+
+* ENGLAND, E.; FINNEY, A. Managing Multimedia: Project Management for 
+  Interactive Media. Addison Wesley. 440 p. 1999;
+
+* FLUCKIGER, F. Understanding Networked Multimedia Application and Technology.
+  Printece Hall, 1995;
+
+* HASKELL, B.G.; PURI, A.; NETRAVALI, A. Digital Video: An Introduction to 
+  MPEG-2. Chapman &amp; Hall, New York, 1997;
+
+* LOWE, D.; Hall, W. Hypermedia and the Web: An Engineering Approach. Wiley, 
+  1999;
+
+* MITCHELL, J.L.; PENNEBAKER, W.B.; FOGG, C.E.; LEGALL, D.J. MPEG Video
+  Compression Standard. Chapman &amp; Hall, 1996;
+
+* NIELSEN, J. Multimedia and Hypertext. Morgan Kaufmann, 1995;
+
+* PAULA FILHO, W. de P. Multimídia: conceitos e aplicações. Rio de Janeiro: 
+  LTC – Livros Técnicos e Científicos S. A., 2000;
+
+* TANNENBAUM, R. S. Theoretical Foundations of Multimedia. W. H. Freeman and 
+  Company. 625p. 1998.
 
 ### Agradecimentos
 

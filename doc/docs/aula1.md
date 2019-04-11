@@ -4,11 +4,11 @@
 
 Por que estudar sistemas hipermídia e multimídia?
 
-* Área em ascenção
-* Realidade Virtual e Aumentada
-* Inovações Científicas
-* Aplicações de Entretenimento (Jogos)
-* Desafios Tecnológicos
+* Área em ascenção;
+* Realidade Virtual e Aumentada;
+* Inovações Científicas;
+* Aplicações de Entretenimento (Jogos);
+* Desafios Tecnológicos;
 * Está em todo lugar!
 
 ## Mídia
@@ -113,8 +113,10 @@ linear, possibilitando fazer links entre elementos de mídia, controlar a
 própria navegação e, até, extrair textos, imagens e sons cuja sequência
 constituirá uma versão pessoal desenvolvida pelo usuário*.
 
-* **Acesso simultâneo:** os humanos "não" conseguem, porém meios automáticos
-  (sistemas computacionais) conseguem acesar simultaneamente hipermídia;
+* **Acesso simultâneo:** os humanos conseguem acessar hipermídias
+  simultaneas com uso de diferentes sentidos. Outros sistemas automáticos
+  (sistemas computacionais) também conseguem acesar simultaneamente sistemas
+  hipermídias;
 * **Interativo e não linear:** existe intereção com hipermídia e a informação
   pode ser acessada e mostrada de forma não linear.
 
