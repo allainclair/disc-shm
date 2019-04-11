@@ -1,8 +1,8 @@
 ## Interatividade
 
-Interatividade permeia por várias áreas do conhecimento, como na física, 
-filosofia, geografia, biologia, antropologia etc. Aqui mostramos 3 exemplos 
-dessas áreas. 
+O conceito de interatividade permeia por várias áreas do conhecimento, como na 
+física, filosofia, geografia, biologia, antropologia etc. Aqui mostramos 3
+exemplos dessas áreas. 
 
 ## Interação na Física
 
@@ -16,7 +16,7 @@ básicas:
 * Força nuclear fraca.
 
 A física também se ocupa da interação das ondas eletromagnéticas com a
-matéria. A interação modifica a freqüência da onda e, consequentemente, sua
+matéria. A interação modifica a frequência da onda e, consequentemente, sua
 velocidade. Existe ainda um ramo da física, a mecânica, destinada a apenas
 estudar a interatividade de forças, objetos e movimento.
 
@@ -49,14 +49,14 @@ por fontes humanas, como veículos motores e indústrias.
 ## Interatividade aplicado a ambientes mediados por computador
 
 André Lemos (1997) entende que o que se compreende hoje por interatividade é
-nada mais que uma nova forma de interação técnica, de característica
-eletrônico-digital, e que se diferencia da interação analógica que caracteriza
-a mídia tradicional.
+nada mais que uma **nova forma de interação técnica, de característica
+eletrônico-digital**, e que se diferencia da interação analógica que 
+caracteriza a mídia tradicional.
 
 Segundo Andrew Lippman (Brand, 1988, p. 46), pesquisador do Instituto de 
 Tecnologia de Massachusetts (MIT), pode-se definir interatividade como uma
-"atividade mútua e simultânea da parte dos dois participantes, normalmente 
-trabalhando em direção de um mesmo objetivo".
+**"atividade mútua e simultânea da parte dos dois participantes, normalmente 
+trabalhando em direção de um mesmo objetivo".**
 
 ## Níveis de interação
 
@@ -71,9 +71,10 @@ televisão, como o videocassete, as câmeras portáteis e jogos eletrônicos.
 
 No nível 3 já aparecem sinais de interatividade de características digitais.
 O telespectador pode então interferir no conteúdo a partir de telefones
-(como no programa Você Decide) por fax ou correio eletrônico.
+(como no programa **Você Decide**) por fax ou correio eletrônico. Outro 
+exemplo bem próximo até: Netflix (Black Mirror).
 
-Finalmente, conclui que a interatividade se situa em 3 níveis não excludentes:
+Também pode-se classificar interatividade em 3 níveis não excludentes:
 
 * Técnico "analógico-mecânico";
 * Técnico "eletrônico-digital";
@@ -157,14 +158,14 @@ ocorrer, o outro participante não deve ser deixado perdido, nem o sistema
 deve se desligar. Os participantes devem ter a capacidade de aprender quando
 e como podem obter a resposta que não está disponível naquele momento.
 
-Ou seja, de maneira simplista, não deixar o usuário sem resposta para 
-solicitações que precisam.
+Ou seja, de maneira simplista, não deixar o usuário sem resposta para as 
+devidas solicitações que precisam dessas respostas.
 
 * Confirmar quando um usuário cadastrar no sistema;
 * Confirmar uma transação se ela foi efetuada com sucesso.
 
 A questão de aprendizado já é mais complexa, que pode levar a uma 
-aprendizagem por reforço.
+aprendizagem por reforço ou exploratória.
 
 #### Exemplo de linguagem natual
 
@@ -200,3 +201,73 @@ de um padrão pré-determinado dá liberdade aos participantes.
 O [Google Street View](https://www.google.com/streetview/) é um exemplo de 
 sistema interativo com essa característica. As pessoas tem liberdade para se
 moverem pelo mapa de forma bastante livre. 
+
+## [Colocar referências]
+
+## Sistemas interativos
+
+### [Sistemas interativos da anatel](http://www.anatel.gov.br/institucional/sistemas-interativos)
+
+#### [Fique ligado!](https://sistemas.anatel.gov.br/fiqueligado/)
+
+Mapa dos orelhões de uma cidade
+
+![Fique ligado](fiqueligado,jpg)
+
+![Fique ligado](images/fiqueligado,png)
+
+``` Questões1 tab=
+Tem internet em todos orelhões para eles saberem se está conectado?
+(mais caro)
+
+Tem algum ponto de internet próximo para agregar essas informações de um
+conjunto de orelhões? (mais barato)
+```
+
+``` Questões2 tab=
+
+Tem GPS em todo orelhão para saber a posição? (mais caro)
+
+Cadastra-se a posição dos orelhões manualmente mesmo? (mais barato)
+Já que o orelhão não sai do lugar.
+```
+
+``` Questões3 tab=
+Qual usuário desse sistema que precisa de orelhão, se para ver esse mapa
+precisa-se de internet?????
+
+Isso só serve para o caso de alguém que quer saber onde está um orelhão de
+maneira antecipada. Por exemplo, anoto os lugares do orelhão em um papel, pois
+no outro dia vou precisar. Só que no papel não me da o estado do orelhão, ou seja
+se ele vai estar online ou offline.
+```
+
+```Questões4 tab=
+Será que existe divulgação do sistema?
+
+Será que eles medem a quantidade de usuários desse sistema? Para terminar um
+projeto desse caso não haja usuários.
+```
+
+#### [SigWebMapRNI - Mapa Exposição Humana a Campos Eletromagnéticos](https://sistemas.anatel.gov.br/sigwebmaprni/index.zul)
+
+#### [SISCOM - Sistema de Informação dos Serviços de Comunicação de Massa](http://sistemas.anatel.gov.br/se/public/view/b/srd.php)
+
+### [Avaliar sistemas interativos](http://igti.com.br/blog/avaliar-sistemas-interativos/)
+
+"É normal algumas pessoas encontrarem problemas na utilização de um sistema interativo, difícil é calcular as consequências desses problemas. Um único problema no modelo de interface e interação de um sistema interativo pode ser drástico, obrigando o usuário a abandoná-lo e gerando uma frustração tão grande, ao ponto de não voltar mais a utilizá-lo."
+
+### [Design centrado no humano](https://acampos.com.br/uninter/materias/17-ihc/1-design-sistemas-interativos.html)
+
+Sistemas interativos lidam com a transmissão, exibição, armazenamento ou transformação de informação que as pessoas podem perceber. São dispositivos e sistemas que respondem dinamicamente às ações do oser humano.
+
+* Colocar as pessoas em primeiro lugar;
+* Projetar sistemas interativos que favoreçam as pessoas e dos quais elas possam
+  usufruir;
+* **Pensar no que as pessoas querem fazer** em vez do que a **tecnologia
+  pode fazer**: vá mais pelo mercado do que pela sua própria ideia. Ou adapte sua
+  ideia com o mercado;
+* Envolver as pessoas no processo de design: converse com o usuário, não ache
+  que você sabe tudo e fará o melhor produto;
+* Projetar para a diversidade: diferentes tipos de pessoas acessam seu sistemas
+  tente englobar a maiora delas.
