@@ -89,7 +89,6 @@ inteligentes sem a mediação humana.
 
 ## Fatores que contribuem para interatividade
 
-
 ### Velocidade
 
 A taxa com que um *input* pode ser assimilado pelo ambiente mediado. Se 
@@ -271,3 +270,10 @@ Sistemas interativos lidam com a transmissão, exibição, armazenamento ou tran
   que você sabe tudo e fará o melhor produto;
 * Projetar para a diversidade: diferentes tipos de pessoas acessam seu sistemas
   tente englobar a maiora delas.
+  
+
+## Referências
+
+[http://www.ufjf.br/grupar/files/2014/09/Explorando-o-conceito-de
+-interatividade.doc](
+http://www.ufjf.br/grupar/files/2014/09/Explorando-o-conceito-de-interatividade.doc)
