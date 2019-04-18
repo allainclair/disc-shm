@@ -13,7 +13,7 @@ def main():
 
     # frequency is the number of times a wave repeats a second.
     starting_f, ending_f = 0, 5000
-    num_samples = 1440000
+    num_samples = 480000
 
     grad = (ending_f - starting_f)/num_samples
 

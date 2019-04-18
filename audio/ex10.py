@@ -1,6 +1,7 @@
 """
 https://www.pythonforengineers.com/audio-and-digital-signal-processingdsp-in-python/
 """
+import random
 import struct
 import wave
 
@@ -12,9 +13,9 @@ def main():
     # Sine function: y(t) = A * sin(2 * pi * f * t)
 
     # frequency is the number of times a wave repeats a second.
-    frequency = 500   # Periodo eh o inverso da frequencia = 1/f.
+    frequency = 440   # Periodo eh o inverso da frequencia = 1/f.
 
-    num_samples = 48000
+    num_samples = 200000
 
     # The sampling rate of the analog to digital convert.
     sampling_rate = 48000
@@ -35,9 +36,18 @@ def main():
 
     file = 'test.wav'
 
-    sine_wave = [
-        np.sin(2 * np.pi * frequency * t / sampling_rate)
-        for t in range(num_samples)]
+    # start_pertub, end_pertub = -1, 1
+
+    sine_wave = []
+    for t in range(num_samples):
+        perturb = random.random()
+        # perturb1 = random.randint(1, 1000)
+        y = abs(np.sin((2 * np.pi * frequency * t / sampling_rate)))
+        sine_wave += [y]
+
+    # sine_wave = [
+    #     np.sin(2 * np.pi * frequency * t / sampling_rate)
+    #     for t in range(num_samples)]
 
     nframes = num_samples
 

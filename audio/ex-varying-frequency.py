@@ -12,8 +12,8 @@ def main():
     # Sine function: y(t) = A * sin(2 * pi * f * t)
 
     # frequency is the number of times a wave repeats a second.
-    starting_f, ending_f = 0, 10000
-    num_samples = 1440000
+    starting_f, ending_f = 1000, 10000
+    num_samples = 480000
 
     grad = (ending_f - starting_f)/num_samples
 

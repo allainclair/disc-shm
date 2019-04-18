@@ -8,7 +8,7 @@ import wave
 import numpy as np
 
 
-def make_frequencies(n=40, start=100, end=5000):
+def make_frequencies(n=40, start=100, end=6000):
     return [random.randint(start, end) for _ in range(n)]
 
 
@@ -29,7 +29,6 @@ def main():
     file = 'test.wav'
 
     sine_wave = []
-
     sample = int(second_sample / second_factor)
     freq = random.choice(freqs)
     for x in range(num_samples):

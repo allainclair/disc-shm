@@ -12,7 +12,10 @@ def main():
     # Sine function: y(t) = A * sin(2 * pi * f * t)
 
     # frequency is the number of times a wave repeats a second.
-    frequency = 500   # Periodo eh o inverso da frequencia = 1/f.
+    music_time = 100
+    notes = [261.6256, 293.6648, 329.6276]
+    note_lengths = []
+
 
     num_samples = 48000
 
@@ -30,14 +33,14 @@ def main():
     # Maximo de 16 bits = 2^15 -1 = 32767 (um bit pro sinal lembrando,
     # por isso 2^15).
     # Aqui iremos mais ou menos ateh a metade da amplitude apenas, ou seja,
-    # amplitude serah de 16000.
-    amplitude = 16000  # Testar diferentes amplitudes.
+    # ampliture serah de 16000.
+    amplitude = 32000  # Testar diferentes amplitudes.
 
     file = 'test.wav'
 
     sine_wave = [
-        np.sin(2 * np.pi * frequency * t / sampling_rate)
-        for t in range(num_samples)]
+        np.sin(2 * np.pi * frequency * x / sampling_rate)
+        for x in range(num_samples)]
 
     nframes = num_samples
 
@@ -53,10 +56,12 @@ def main():
 
     with wave.open(file, 'w') as wave_file:
         wave_file.setparams((
-            nchannels, sampwidth, sampling_rate, nframes, comptype, compname))
+            nchannels, sampwidth, int(sampling_rate), nframes, comptype, compname))
 
         for s in sine_wave:
             wave_file.writeframes(struct.pack('h', int(s * amplitude)))
+
+    # wav_file.close()
 
     # plt.plot(sine_wave)
 

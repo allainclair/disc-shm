@@ -14,8 +14,8 @@ def main():
     frequency1 = 1000
     frequency2 = 10000
 
-    num_samples1 = 48000
-    num_samples2 = 48000
+    num_samples1 = 100000
+    num_samples2 = 100000
 
     # The sampling rate of the analog to digital convert.
     sampling_rate = 48000
