@@ -1,3 +1,4 @@
+import random
 import struct
 import wave
 
@@ -28,15 +29,18 @@ def fft(data, abs_=True):
     return data
 
 
-def plot(wave1, wave2=None):
-    # output_file(
-    #     'output.html',
-    #     title='empty')
-    # fig = figure()
-    # show(fig)
-    plt.plot(wave1)
+def plot(wave1, wave2=None, limit=2000):
+    plt.plot(wave1[:limit])
     if wave2 is not None:
-        plt.plot(wave2)
+        plt.plot(wave2[:limit])
+    plt.show()
+
+
+def plots(plots, limit=2000):
+    n = len(plots)
+    for i, plot in enumerate(plots):
+        plt.subplot(n, 1, i+1)
+        plt.plot(plot[:limit])
     plt.show()
 
 
@@ -49,16 +53,35 @@ def save_wave(
         wave_file.setparams((
             num_channels, sampwidth, sampling_rate, n_frames, comptype, compname))
         for signal in wave_:
-            value = int(signal * amplitude)
-            # if value > amplitude:
-            #     value = amplitude
+            # value = int(signal * amplitude)
+
+            if amplitude == 0:
+                value = int(signal)
+            else:
+                value = int(signal * amplitude)
+            # print(value)
+            # print('value', value)
+            # if value < -20000:
+            #     value = -20000
+            # elif value > 20000:
+            #     value = 20000
             wave_file.writeframes(struct.pack('h', value))
 
 
-def signalwave(frequency=1000, num_samples=48000, sampling_rate=48000, time=None):
+def signalwave(
+        frequency=1000, num_samples=48000, sampling_rate=48000, time=None,
+        noisy=False):
     """Sine function: y(t) = A * sin(2 * pi * f * t)."""
+
+    def noise():
+        if noisy:
+            # Aumentar e diminuir "noise".
+            return random.uniform(-1, 1)
+        else:
+            return 0
+
     if time is not None:
         num_samples = sampling_rate * time
-    return [  # Problema com essa declaracao em Python?
-        np.sin(2 * np.pi * frequency * t / sampling_rate)
+    return [
+        np.sin(2 * np.pi * frequency * t / sampling_rate + noise())
         for t in range(num_samples)]

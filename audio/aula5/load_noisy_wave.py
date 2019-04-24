@@ -16,10 +16,9 @@ def main():
 
     freqs = signalwave.fft(data)
 
+    plt.subplot(2, 1, 1)
 
-    plt.subplot(2,1,1)
-
-    plt.plot(data[:1000])
+    plt.plot(data[:3000])
 
     plt.title('Original audio wave')
 
