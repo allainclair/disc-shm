@@ -38,7 +38,7 @@
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
       <link rel="shortcut icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-3.2.0">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.1.2">
     
     
       
@@ -46,12 +46,12 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/application.572ca0f0.css">
+      <link rel="stylesheet" href="../assets/stylesheets/application.3020aac5.css">
       
       
     
     
-      <script src="../assets/javascripts/modernizr.8c900955.js"></script>
+      <script src="../assets/javascripts/modernizr.01ccdecf.js"></script>
     
     
       
@@ -62,6 +62,9 @@
     
     <link rel="stylesheet" href="../assets/fonts/material-icons.css">
     
+    
+    
+      
     
     
   </head>
@@ -99,22 +102,19 @@
       <div class="md-flex__cell md-flex__cell--stretch">
         <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
           
-            
-              <span class="md-header-nav__topic">
-                Sistemas Hipermídia e Multimídia
-              </span>
-              <span class="md-header-nav__topic">
-                Trabalho 1
-              </span>
-            
+            <span class="md-header-nav__topic">
+              Sistemas Hipermídia e Multimídia
+            </span>
+            <span class="md-header-nav__topic">
+              Trabalho 1
+            </span>
           
         </div>
       </div>
       <div class="md-flex__cell md-flex__cell--shrink">
         
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
           
-            <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
-            
 <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
@@ -137,7 +137,6 @@
     </div>
   </div>
 </div>
-          
         
       </div>
       
@@ -295,6 +294,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#avaliacao" title="Avaliação" class="md-nav__link">
+    Avaliação
+  </a>
+  
+</li>
+      
       
       
       
@@ -338,6 +344,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#avaliacao" title="Avaliação" class="md-nav__link">
+    Avaliação
+  </a>
+  
+</li>
+      
       
       
       
@@ -358,13 +371,13 @@
                   <h1>Trabalho 1</h1>
                 
                 <p>Dada uma entrada em texto (.txt), código morse (.morse) ou áudio (.wav) a aplicação
-deve usar essa entrada para traduzir para as outras duas 
+deve usar essa entrada para traduzir para as outras duas
 restantes.</p>
 <p>Isto é, caso a entrada seja um texto, o programa deve escrever dois arquivos em
 código morse (.morse) e sinal de áudio (.wav); caso seja um código morse, ela
 deve escrever um arquivo de áudio (.wav) e um texto (.txt); caso a entrada seja
 um áudio, a saída deve ser dois arquivos: texto (.txt) e código morse (.morse).</p>
-<p>Pela extensão do arquivo de entrada, da pra saber quais arquivos de saída 
+<p>Pela extensão do arquivo de entrada, da pra saber quais arquivos de saída
 devem ser gerados. Ex:</p>
 <div class="superfences-tabs">
 <input name="__tabs_1" type="radio" id="__tab_1_0" checked="checked" />
@@ -374,7 +387,7 @@ $ ./app.py audio.wav  <span class="c1"># Gera arquivos text.txt e code.morse</sp
 </pre></div></div>
 </div>
 <p>Padronização de nomes: <strong>app.py, text.txt, audio.wav e code.morse</strong></p>
-<p>O arquivo de entrada fica livre para ter um nome qualquer, pois é um 
+<p>O arquivo de entrada fica livre para ter um nome qualquer, pois é um
 parâmetro a ser passado para a aplicação.</p>
 <h2 id="codigo-morse"><a href="https://en.wikipedia.org/wiki/Morse_code">Código Morse</a></h2>
 <p><img alt="mor-seimg" src="https://upload.wikimedia.org/wikipedia/commons/b/b5/International_Morse_Code.svg" /></p>
@@ -382,12 +395,39 @@ parâmetro a ser passado para a aplicação.</p>
 <ul>
 <li>"0" e "1";</li>
 <li>"1" é uma unidade e nosso "ponto" (▄); 111 é o "traço" (▄▄▄);</li>
-<li>"0" significa os caracteres entre "pontos" e "traços", e tem quantidades 
+<li>"0" significa os caracteres entre "pontos" e "traços", e tem quantidades
   de acordo com a especificação. Por exemplo: espaço entre letras tem apenas
   uma unidade, ou seja "0";</li>
-<li>Unidade de tempo de som como constante com valor de 0.25s. Isto é, uma 
+<li>Unidade de tempo de som como constante com valor de 0.25s. Isto é, uma
   unidade do código morse dura 0.25s;</li>
 <li>Frequência como constante 440 hz.</li>
+</ul>
+<h2 id="avaliacao">Avaliação</h2>
+<ul>
+<li>
+<p>Completude;</p>
+</li>
+<li>
+<p>Qualidade de código:</p>
+<ul>
+<li>Códigos claros;</li>
+<li>Modularidade;</li>
+<li>Nomes significativos;</li>
+<li>Evitem códigos profundos (aninhados -- <em>nested</em>);</li>
+<li>Evitem ultrapassar 80~90 caracteres por linha.</li>
+</ul>
+</li>
+<li>
+<p>Refatorem seus códigos para atingir esses objetivos!</p>
+</li>
+<li>
+<p>Testem o que for possível! Aconselho usar <a href="https://en.wikipedia.org/wiki/Test-driven_development">TDD</a> em alguns casos!</p>
+<ul>
+<li>Pytest;</li>
+<li>Nose;</li>
+<li>Unittest.</li>
+</ul>
+</li>
 </ul>
                 
                   
@@ -438,15 +478,13 @@ parâmetro a ser passado para a aplicação.</p>
           Material for MkDocs</a>
       </div>
       
-        
-      
     </div>
   </div>
 </footer>
       
     </div>
     
-      <script src="../assets/javascripts/application.b41f3d20.js"></script>
+      <script src="../assets/javascripts/application.267712eb.js"></script>
       
         
         
@@ -468,9 +506,6 @@ parâmetro a ser passado para a aplicação.</p>
         
       
       <script>app.initialize({version:"1.0.4",url:{base:".."}})</script>
-      
-    
-    
       
     
   </body>
