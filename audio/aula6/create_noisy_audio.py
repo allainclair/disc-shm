@@ -8,13 +8,13 @@ import signalwave
 
 def main():
     # Mudar freqs para testar
-    frequency = 1000
-    time = 2
+    frequency = 500
+    time = 3
 
     noisy_wave = signalwave.signalwave(frequency, time=time, noisy=True)
 
     signalwave.plot(noisy_wave)
-    plt.show()
+    # plt.show()
 
     signalwave.save_wave(
         noisy_wave, amplitude=8000, file_path='noisy_audio.wav')

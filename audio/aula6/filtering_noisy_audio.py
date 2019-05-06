@@ -8,30 +8,32 @@ import signalwave
 
 
 def main():
-    # Normal wave
-    data = signalwave.load_wave('noisy_audio.wav', time=2)
+    # data = signalwave.load_wave('noisy_audio.wav', time=3, stereo=False)
+    data = signalwave.load_wave('aud.wav', time=3, stereo=False)
+
+    signalwave.plot(data, limit=10000)
 
     freqs = signalwave.fft(data)
 
     filtered_freqs = filter_freqs(freqs)
 
-    signalwave.plots([freqs, filtered_freqs], limit=5000)
+    signalwave.plots([freqs, filtered_freqs], limit=15000)
 
     recovered_signal = np.fft.ifft(filtered_freqs)
-    signalwave.plot(recovered_signal, limit=3000)
-    # print(recovered_signal)
+    signalwave.plot(recovered_signal, limit=5000)
+    print(recovered_signal)
     signalwave.save_wave(
         recovered_signal,
         amplitude=0, file_path='noisy_audio_fitered.wav')
 
 
 def filter_freqs(freqs):
-    """Automaticamente pega a maior intensidade de frequencia e filtra nela."""
+    """Automaticamente pega a maior intensidade de frequencia e filtra ela."""
     max_index = np.argmax(freqs)
-    # print('max_index:', max_index)
+    print('max_index:', max_index)
     return [
-        f if (f > 1) and (max_index - 10 < i < max_index + 10) else 0
-        for i, f in enumerate(freqs)]
+        amp if max_index - 50 < f < max_index + 50 else 0
+        for f, amp in enumerate(freqs)]
 
 
 if __name__ == '__main__':

@@ -8,12 +8,19 @@ import numpy as np
 
 
 def load_wave(
-        file_path='test.wav', num_frames=96000, sampling_rate=48000, time=None):
+        file_path='test.wav', num_frames=96000, sampling_rate=48000, time=None,
+        stereo=False):
     if time is not None:
         num_frames = sampling_rate * time
     with wave.open(file_path) as wave_file:
-        data = wave_file.readframes(num_frames)
-        data = struct.unpack('{n}h'.format(n=num_frames), data)
+        len_ = wave_file.getnframes()
+        print(len_)
+        data = wave_file.readframes(len_)
+        if stereo:
+            data = struct.unpack('{n}h'.format(n=len_*2), data)
+        else:
+            data = struct.unpack('{n}h'.format(n=len_), data)
+        # data = struct.unpack('<h'.format(n=len_), data)
         return np.array(data)
 
 
@@ -21,11 +28,11 @@ def fft(data, abs_=True):
     data = np.fft.fft(data)
     if abs_:
         data = np.abs(data)
-    print('1000', data[1000])
-    print('2000', data[2000])
-    print('200', data[200])
-    print('Argmax:', np.argmax(data))
-    print('max:', max(data))
+    # print('1000', data[1000])
+    # print('2000', data[2000])
+    # print('200', data[200])
+    # print('Argmax:', np.argmax(data))
+    # print('max:', max(data))
     return data
 
 
@@ -53,18 +60,10 @@ def save_wave(
         wave_file.setparams((
             num_channels, sampwidth, sampling_rate, n_frames, comptype, compname))
         for signal in wave_:
-            # value = int(signal * amplitude)
-
             if amplitude == 0:
                 value = int(signal)
             else:
                 value = int(signal * amplitude)
-            # print(value)
-            # print('value', value)
-            # if value < -20000:
-            #     value = -20000
-            # elif value > 20000:
-            #     value = 20000
             wave_file.writeframes(struct.pack('h', value))
 
 
@@ -76,7 +75,7 @@ def signalwave(
     def noise():
         if noisy:
             # Aumentar e diminuir "noise".
-            return random.uniform(-1, 1)
+            return random.uniform(0, 4)
         else:
             return 0
 
