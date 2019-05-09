@@ -1,61 +1,136 @@
-Good design is actually a lot harder to notice than poor design, in part because
-good designs fit our needs so well that the design is invisible, serving us
-without drawing attention to itself. Bad design, on the other hand, screams out its
-inadequacies, making itself very noticeable.
+## Design (Projeto)
 
-Logo, design é um trabalho que deve ser "invisível".
+Bom *design* é muito mais difícil de perceber do que um *design* ruim. Bom
+design supre nossas necessidades tão bem que eles são invisível, servindo-nos sem a
+necessidade de chamar atenção para ele.
 
-## Bad design
+Design ruim mostra de maneira muita clara suas inadequações/insuficiências, fazendo
+com que ele seja muito notado.
 
-I push doors that are meant to be pulled, pull doors that should be
-pushed, and walk into doors that neither pull nor push, but slide. Moreover,
-I see others having the same troubles—unnecessary troubles. My problems with
-doors have become so well known that confusing doors are often called
-"Norman doors." [https://www.youtube.com/watch?v=q7CpRH2WbME](
+Logo, bom *design* é um trabalho que deve ser de forma geral "invisível".
+ 
+## Design ruim
+
+* Empurar portas que devem ser puxadas;
+* Puxar portas que deveriam ser ser empurradas;
+* Tentar entrar em portas que nem devem ser puxadas ou empurradas, mas sim deslizadas.
+
+Quando isso acontece com muitas pessoas principalmente, isso é um problema.
+
+* Norman doors: [https://www.youtube.com/watch?v=q7CpRH2WbME](
 https://www.youtube.com/watch?v=q7CpRH2WbME).
 
-![norman-doors](../images/norman-doors.png)
-
-![car-door.png](../images/car-door.png)
-
-The design of the door should indicate how to work it without any need for
-signs, certainly without any need for trial and error.
+O design de portas deveriam indicar como elas funcionam sem nenhuma necessidade
+de indicar sinais, e sem qualquer necessidade de tentativa e erro.
 
 ![coffeepot](../images/bad-coffeepot.png)
 
+![sink](../images/sink.png)
+
+![toilet-bad-design](../images/toilet-bad-design.jpg)
+
+![gaveta](../images/gaveta3.png)
+
+![totem](../images/totem.jpg)
+
+![dry-hand](../images/dry-hand.jpg)
+
+Abastacimento de carros:
+
+[https://www.youtube.com/watch?v=vupgBykQnko](
+https://www.youtube.com/watch?v=vupgBykQnko)
+
 ## Good design
 
-Two of the most important characteristics of good design are
-**discoverability and understanding**.
+Duas características de bom design são **descoberta (*discoverability*) e
+entendimento (*understanding*)**:
 
-* Discoverability: Is it possible to even figure out what actions are possible
-  and where and how to perform them?
+* Descoberta: é possível descobrir quais ações são possíveis e como executá-las?
 
-* Understanding: What does it all mean? How is the product supposed to be used?
-  What do all the different controls and settings mean?
-  
-* With complex devices, discoverability and understanding require the aid of
-  manuals or personal instruction. We accept this if the device is indeed
-  complex, but it should be unnecessary for simple things.
-  
-Design is concerned with how things work, how they are controlled, and the
-nature of the interaction between people and technology. When done well,
-the results are brilliant, pleasurable products. When done badly, the
-products are unusable, leading to great frustration and irritation.
-Or they might be usable, but force us to behave the way the product wishes
-rather than as we wish.
+* Entendimento: o que tudo isso significa? como o produto deveria ser usado? o
+  que todos os diferentes controles e configurações significam?
 
-It is time to reverse the situation: to cast the blame upon the machines
-and their design. It is the machine and its design that are at fault. It
-is the duty of machines and those who design them to understand people.
-It is not our duty to understand the arbitrary, meaningless dictates of machines.
+Com dispositivos complexos, descoberta e entendimento precisam o auxilio de manuais,
+ou assistentes pessoais. Mas isso não deveria ser usado para coisas simples.
 
-Engineers, moreover, make the mistake of thinking that logical explanation is
-sufficient: “If only people would read the instructions,” they say,
-“everything would be all right.” Engineers are trained to think logically.
-As a result, they come to believe that all people must think this way, and
-they design their machines accordingly. When people have trouble, the engineers
-are upset, but often for the wrong reason. “What are these people doing?”
-they will wonder. “Why are they doing that?” The problem with the designs of most
-engineers is that they are too logical. We have to accept human behavior the way
-it is, not the way we would wish it to be.
+Design é preocupado com **como as coisas funcionam, como elas são controladas e
+a natureza dessas interações entre pessoas e tecnologia**. Quando feita bem, os
+resultados são ótimos. Quando feito mal, o produto pode se tornar inútil, que
+pode levar a frustração e irritação do usuário. Ou eles são úteis, mas nos forçam
+a usá-los de uma forma que o produto quer, e não do **jeito que nós queremos**.
+
+Isso deve ser revertido: colocando a culpa nos dispositivos e em seu design. É
+culpa da máquina e seu projeto (design). É dever deles entender como as pessoas são.
+Não é dever das pessoas entender os produtos, principalmente os mal projetados. 
+
+Engenheiros erram ao tentar explicações lógicas:
+
+* "Se as pessoas lessem as instruções tudo estaria resolvido";
+
+Engenheiros são treinados para pensar de forma muito lógica. Dessa forma eles 
+pensam que todos devem pensar do mesmo jeito que eles! Criando produtos da mesma forma. 
+Quando as pessoas usam os produtos da forma errada, eles colocam culpa na pessoa.
+Porém deveria-se aceitar o comportamento humano do jeito que ele é, não do jeito
+que nós queriamos que ele fosse.
+
+A moral é simples: nós desenvolvemos coisas para pessoas, logo temos que entender
+ambos, tecnologia e pessoas.
+
+É um passo difícil para muitos engenheiros: máquinas são muito lógicas e ordenadas.
+Se não tivessmos pessoas, tudo funcionariam melhor!
+
+Porém elas existem, então temos que lidar com uma interdisciplinaridade entre
+tecnologia e psicologia (pessoas), os designers deveria entender ambos. E também
+projetar nossas máquinas pensando que pessoas cometem erros.
+
+![norman-doors](../images/norman-doors.png)
+
+![car-door](../images/car-door.png)
+
+![floating-mug](../images/floating-mug.jpg)
+
+## Design centrado no humano (*Human-Centered Design*)
+
+Pessoas são frustadas com as coisas do dia a dia... *dashboards* complicados,
+aumento da automação residencial, jogos, cozinha automatizada com novas interfaces,
+etc.
+
+E cada novo desenvolvimento parece repetir os erros dos antigos; cada novo campo
+demora tempo para adotar princípios de bom design. Assim como nossa área de 
+sistemas multi e hipermídia.
+
+Cada nova invenção tecnológica ou técnica de interação precisa de experimentanção,
+e o estudo dos princípios de bom design podem ser integrados e colocado em prática.
+
+Uma solução é o **design centrado no humano (*HCD* -- em inglês)**, uma abordagem
+que coloca as necessidades, habilidades e modos de se comportar das pessoas no design.
+Isso indica um entendimento de **psicologia e tecnologia**. Boa comunicação especialmente
+de máquina para pessoa, indicam quais ações são possíveis, o que está acontecendo
+e o que está para acontecer, isso leva ao bom design.
+
+Designers precisam focar suas atenção nos casos onde as coisas dão erradas, não
+apenas onde as coisas dão certas. E se der errado, isso deve ser destacado de 
+maneira apropriada para o usuário tomar as devidas ações e o problema ser resolvido.
+Quando isso acontece de forma suave, a colaboração entre pessoa e dispositivo é
+excelente.
+
+HCD significa bom entendimento de pessoas e a necessidade que o design se propões
+a satisfazer. Esse entendimento primeiramente vem da **observação**, pois pessoas
+geralmente não sabem das suas reais necessidade, até nem sabem das dificuldades
+que elas encontram.
+
+Os princípios de HCD evitam especificar o problema, para que durante iterações o
+problema seja especificado de forma aproximada. Isso é feito por testes rápidos
+de ideias, e depois de cada teste as abordagens mudam e também a definição do problema.
+Ou seja, um método iterativo incremental! Os resultados podem ser produtos que
+realmente satisfaçam as necessidades das pessoas.
+
+
+## Agradecimentos
+
+[Fabrício de Moraes - UX Designer / User Interface Designer](
+https://www.linkedin.com/in/fabmos/)
+
+## Referências
+
+Livro: The Design of Everyday Things (Cap1)
