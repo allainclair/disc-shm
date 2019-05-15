@@ -8,8 +8,8 @@ interactions. Was the overall experience positive, or was it frustrating and
 confusing? When our home technology behaves in an uninterpretable fashion we
 can become confused, frustrated, and even angry—all strong negative emotions.
 When there is understanding it can lead to a feeling of control, of mastery, and
-of satisfaction or even pride—all strong positive emotions. Cognition and emotion
-are tightly intertwined, which means that the designers must design with both in mind. 
+of satisfaction or even pride—all strong positive emotions. **Cognition and emotion
+are tightly intertwined**, which means that the designers must design with both in mind.
 
 When we interact with a product, we need to figure out how to work it. This
 means discovering what it does, how it works, and what operations are possible:
@@ -21,7 +21,7 @@ It is the conceptual model that provides true understanding. So I now turn to
 these fundamental principles, starting with affordances, signifiers, mappings,
 and feedback, then moving to conceptual models.
 
-### Affordances 
+### Affordances
 
 We live in a world filled with objects, many natural, the rest artificial.
 Every day we encounter thousands of objects, many of them new to us. Many of
@@ -32,19 +32,19 @@ true with many of the artificial, human-made objects we encounter? The answer
 lies with a few basic principles. Some of the most important of these principles
 come from a consideration of affordances.
 
-The term affordance refers to the relationship between a physical object and a
+**The term affordance refers to the relationship between a physical object and a
 person (or for that matter, any interacting agent, whether animal or human, or
-even machines and robots). An affordance is a relationship between the properties
+even machines and robots)**. **An affordance is a relationship between the properties
 of an object and the capabilities of the agent that determine just how the object
-could possibly be used. A chair affords (“is for”) support and, therefore,
+could possibly be used**. A chair affords (“is for”) support and, therefore,
 affords sitting. Most chairs can also be carried by a single person
 (they afford lifting), but some can only be lifted by a strong person or by a
 team of people. If young or relatively weak people cannot lift a chair,
 then for these people, the chair does not have that affordance, it does not
 afford lifting.
 
-The presence of an affordance is jointly determined by the qualities of the object
-and the abilities of the agent that is interacting.  We are used to thinking that
+**The presence of an affordance is jointly determined by the qualities of the object
+and the abilities of the agent that is interacting**.  We are used to thinking that
 properties are associated with objects. But affordance is not a property. An affordance
 is a relationship. Whether an affordance exists depends upon the properties of both
 the object and the agent.
@@ -53,9 +53,9 @@ Glass affords transparency. At the same time, its physical structure blocks the
 passage of most physical objects. As a result, glass affords seeing through and
 support, but not the passage of air or most physical objects
 (atomic particles can pass through glass). The blockage of passage can be considered
-an anti-affordance—the prevention of interaction. To be effective, affordances
+an anti-affordance—the prevention of interaction. **To be effective, affordances
 and antiaffordances have to be discoverable—perceivable. This poses a
-difficulty with glass.  The reason we like glass is its relative invisibility,
+difficulty with glass**.  The reason we like glass is its relative invisibility,
 but this aspect, so useful in the normal window, also hides its anti-affordance
 property of blocking passage. As a result, birds often try to fly through windows.
 And every year, numerous people injure themselves when they walk (or run) through
@@ -92,9 +92,9 @@ should be. You are communicating where to do the touching: the affordance of tou
 signify where the touch should take place. That’s not the same thing
 as saying what action is possible.”
 
-I decided to provide a better answer: signifiers. Affordances determine what
+I decided to provide a better answer: signifiers. **Affordances determine what
 actions are possible. Signifiers communicate where the action should take place.
-We need both.
+We need both.**
 
 People need some way of understanding the product or service
 they wish to use, some sign of what it is for, what is happening,
@@ -102,7 +102,7 @@ and what the alternative actions are. People search for clues, for
 any sign that might help them cope and understand. It is the sign
 that is important, anything that might signify meaningful information.
 Designers need to provide these clues. What people need, and
-what designers must provide, are signifiers. 
+what designers must provide, are signifiers.
 
 The term signifier has had a long and illustrious career in the exotic field
 of semiotics, the study of signs and symbols. But just as I appropriated affordance
@@ -127,7 +127,7 @@ perceived affordance of pushing, but as the signs indicate, the door on the
 left is to be pulled, the one on the right is to be pushed. In the bottom pair of
 photos, B and C, there are no visible signifiers or affordances. How does one
 know which side to push? Trial and error. When external signifiers—signs—
-have to be added to something as simple as a door, it indicates bad design. 
+have to be added to something as simple as a door, it indicates bad design.
 
 Consider a bookmark, a deliberately placed signifier of one’s place in reading
 a book. But the physical nature of books also makes a bookmark an accidental
@@ -139,16 +139,16 @@ software designer deliberately provides a clue, they do not convey any signal
 about the amount of text remaining. -> Isto indica experiências diferentes com
 livros físicos e eletrônicos (ebooks)
 
-![doors-slide.png](../images/doors-slide.png) 
+![doors-slide.png](../images/doors-slide.png)
 
 FIGURE 1.3. Sliding Doors: Seldom Done Well. Sliding doors are seldom signified
 properly. The top two photographs show the sliding door to the toilet on an Amtrak
 train in the United States. The handle clearly signifies “pull,” but in fact, it needs to be
 rotated and the door slid to the right. The owner of the store in Shanghai, China, Photo
 C, solved the problem with a sign. “don’t push!” it says, in both English and Chinese.
-Amtrak’s toilet door could have used a similar kind of sign. 
+Amtrak’s toilet door could have used a similar kind of sign.
 
-![sink.png](../images/sink.png)
+![sink](../images/sink.png)
 
 FIGURE 1.4. The Sink That Would Not Drain: Where Signifiers Fail. I washed my
 hands in my hotel sink in London, but then, as shown in Photo A, was left with the
@@ -160,7 +160,41 @@ anyone to ever discover this? And why should I have to put my clean hands back i
 the dirty water to empty the sink? The problem here is not just the lack of signifier, it is
 the faulty decision to produce a stopper that requires people to dirty their clean hands
 to use it.
- 
+
+Affordances represent the possibilities in the world for how an agent (a person,
+animal, or machine) can interact with something. Some affordances are perceivable,
+others are invisible. Signifiers are signals. Some signifiers are signs, labels, and
+drawings placed in the world, such as the signs labeled “push,” “pull,” or “exit”
+on doors, or arrows and diagrams indicating what is to be acted upon or in which
+direction to gesture, or other instructions.
+
+![stairs](../images/stairs.png)
+
+* Affordances are the possible interactions between people and the environment.
+  Some affordances are perceivable, others are not;
+* Perceived affordances often act as signifiers, but they can be ambiguous;
+* Signifiers signal things, in particular what actions are possible and
+  how they should be done. Signifiers must be perceivable, else they fail to function.
+
+Because affordances and signifiers are fundamentally important
+principles of good design, they show up frequently in the pages of
+this book. Whenever you see hand-lettered signs pasted on doors,
+switches, or products, trying to explain how to work them, what to
+do and what not to do, you are also looking at poor design.
+
+![restaurant](../images/restaurant.png)
+
+## Mapping
+
+Mapping is a technical term, borrowed from mathematics, meaning the relationship
+between the elements of two sets of things.
+
+Mapping is an important concept in the design and layout of controls and displays.
+When the mapping uses spatial correspondence between the layout of the controls and the
+devices being controlled, it is easy to determine how to use them. In steering a
+car, we rotate the steering wheel clockwise to cause the car to turn right: the top
+of the wheel moves in the same direction as the car. 
+
 ## Agradecimentos
 
 [Fabrício de Moraes - UX Designer / User Interface Designer](

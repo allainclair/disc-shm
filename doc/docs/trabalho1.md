@@ -33,8 +33,12 @@ parâmetro a ser passado para a aplicação.
   de acordo com a especificação. Por exemplo: espaço entre letras tem apenas
   uma unidade, ou seja "0";
 * Unidade de tempo de som como constante com valor de 0.25s. Isto é, uma
-  unidade do código morse dura 0.25s;
-* Frequência como constante 440 hz.
+  unidade do código morse dura 0.25s, tratar uma pequena variação disso se for
+  necessário, +- 0.01s;
+* Frequência como constante 440 hz;
+* Taxa de amostragem constante 48000;
+* Amplitude 16000;
+* [np.sin(2 * np.pi * frequency * x / sampling_rate) for x in range(num_samples)]
 
 ## Avaliação
 
