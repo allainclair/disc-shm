@@ -16,6 +16,9 @@
 * **Site:** [https://allainclair.github.io/disc-shm/](
   https://allainclair.github.io/disc-shm/)
 
+* **Repositório:** [https://github.com/allainclair/disc-shm/](
+  https://github.com/allainclair/disc-shm/)
+
 ## Avaliação (projeto)
 
 * prova 1 [0-10]
@@ -44,17 +47,17 @@ Construção de aplicações hipermídia na Web. Estudo de caso.
 
 ### Objetivos
 
-* Habilitar o aluno e entender os modelos de documentos hipermídia e 
+* Habilitar o aluno e entender os modelos de documentos hipermídia e
   multimídia;
-* Descrever o processo de desenvolvimento de aplicações hipermídia e 
+* Descrever o processo de desenvolvimento de aplicações hipermídia e
   multimídia;
-* Habilitar o aluno a realizar a especificação e manipulação de documentos 
+* Habilitar o aluno a realizar a especificação e manipulação de documentos
   estruturados para hipermídia e multimídia;
-* Apresentar as características de áudio, imagem e vídeo que afetam no 
+* Apresentar as características de áudio, imagem e vídeo que afetam no
   desenvolvimento de aplicações multimídia, tais como: propriedades físicas,
   representação digital, e processamento;
-* Consolidar conceitos relativos ao desenvolvimento de aplicações hipermídia 
-  na Web, descrevendo: a infra-estrutura de comunicação, a infra-estrutura de 
+* Consolidar conceitos relativos ao desenvolvimento de aplicações hipermídia
+  na Web, descrevendo: a infra-estrutura de comunicação, a infra-estrutura de
   servidores, as arquiteturas de aplicações e os ambientes e ferramentas para
   manipulação de hiperdocumentos;
 * Conduzir ao desenvolvimento de uma aplicação hipermídia na Web que faça uso
@@ -103,16 +106,16 @@ Construção de aplicações hipermídia na Web. Estudo de caso.
 
 ### Referências
 
-* ENGLAND, E.; FINNEY, A. Managing Multimedia: Project Management for 
+* ENGLAND, E.; FINNEY, A. Managing Multimedia: Project Management for
   Interactive Media. Addison Wesley. 440 p. 1999;
 
 * FLUCKIGER, F. Understanding Networked Multimedia Application and Technology.
   Printece Hall, 1995;
 
-* HASKELL, B.G.; PURI, A.; NETRAVALI, A. Digital Video: An Introduction to 
+* HASKELL, B.G.; PURI, A.; NETRAVALI, A. Digital Video: An Introduction to
   MPEG-2. Chapman &amp; Hall, New York, 1997;
 
-* LOWE, D.; Hall, W. Hypermedia and the Web: An Engineering Approach. Wiley, 
+* LOWE, D.; Hall, W. Hypermedia and the Web: An Engineering Approach. Wiley,
   1999;
 
 * MITCHELL, J.L.; PENNEBAKER, W.B.; FOGG, C.E.; LEGALL, D.J. MPEG Video
@@ -120,10 +123,10 @@ Construção de aplicações hipermídia na Web. Estudo de caso.
 
 * NIELSEN, J. Multimedia and Hypertext. Morgan Kaufmann, 1995;
 
-* PAULA FILHO, W. de P. Multimídia: conceitos e aplicações. Rio de Janeiro: 
+* PAULA FILHO, W. de P. Multimídia: conceitos e aplicações. Rio de Janeiro:
   LTC – Livros Técnicos e Científicos S. A., 2000;
 
-* TANNENBAUM, R. S. Theoretical Foundations of Multimedia. W. H. Freeman and 
+* TANNENBAUM, R. S. Theoretical Foundations of Multimedia. W. H. Freeman and
   Company. 625p. 1998.
 
 ### Agradecimentos
