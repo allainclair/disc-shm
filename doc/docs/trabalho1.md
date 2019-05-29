@@ -60,3 +60,7 @@ parâmetro a ser passado para a aplicação.
     * Pytest;
     * Nose;
     * Unittest.
+
+## Entrega
+
+* Enviar para **afsantos2@uem.br** com título (assunto): **SHM 6921 T1 -  Nome RA**.

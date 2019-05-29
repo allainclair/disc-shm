@@ -1,7 +1,8 @@
 # Sistemas Hipermídia e Multimídia
 
-## [Trabalho 1](trabalho1.md)
-
+## Prova 1 - 2019-06-13 09:40:00 até 11:20:00.
+### Prova até **aula 9**.
+## [Trabalho 1](trabalho1.md) 2019-06-16 23:59:59 - horário recebimento.
 
 ## Professor
 
@@ -69,7 +70,7 @@ Construção de aplicações hipermídia na Web. Estudo de caso.
 
 2. Conceitos de Comunicação e Interatividade;
 
-3. Evolução histórica de sistemas hiper e multimidiáticos;
+3. Evolução histórica de sistemas hiper e multimidiáticos *;
 
 4. O Hipertexto, características e propriedades;
 
@@ -83,7 +84,7 @@ Construção de aplicações hipermídia na Web. Estudo de caso.
 
     6.3 Processamento digital do som.
 
-7. O vídeo
+7. O vídeo *
 
     7.1 Sistemas analógicos de vídeo;
 
@@ -133,3 +134,27 @@ Construção de aplicações hipermídia na Web. Estudo de caso.
 
 [Prof. Ricardo Theis Geraldi](
 https://www.linkedin.com/in/ricardo-theis-geraldi-50a42816/)
+
+### Agenda restante
+
+Maio
+
+* 2019-05-27
+* 2019-05-30
+
+Junho
+
+* 2019-06-03
+* 2019-06-06
+* 2019-06-10
+* 2019-06-13
+* 2019-06-17
+* 2019-06-24
+* 2019-06-27
+
+Julho
+
+* 2019-07-01
+* 2019-07-04
+* 2019-07-08
+* 2019-07-12
